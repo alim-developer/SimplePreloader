@@ -45,8 +45,8 @@
 
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$(window).load(function(){
-				$("#preloader").delay(4000).fadeOut();
+			$(window).on("load",function(){
+				$("#preloader").fadeOut();
 				// $("body").delay(4000).css({"overflow":"visible"});
 
 			});
